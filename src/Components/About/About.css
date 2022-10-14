@@ -3,3 +3,50 @@
       text-align: center;
       color: rgb(0, 0, 0);
 }
+
+
+.about {
+      margin: 40px;
+      font-size: 37px;
+      color: rgb(17, 6, 6);
+      font-weight: 900;
+      display: flex;
+      padding: 10px;
+
+}
+
+.about img {
+      width: 100%;
+      height: 90%;
+
+}
+
+.about span {
+      color: rgb(95, 127, 127);
+
+}
+
+.about p {
+      margin-left: 40px;
+
+}
+
+.about .pera-text {
+      font-weight: 500;
+      font-size: 20px;
+      margin-left: 40px;
+
+}
+
+.about-btn {
+      color: black;
+      background-color: lightgreen;
+      padding: 10px 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 700;
+      border-radius: 10px;
+      margin-left: 40px;
+
+}

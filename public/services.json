@@ -1,0 +1,38 @@
+[
+      {
+            "id": 1,
+            "name": "Superiority Burger",
+            "neighborhood": "Manhattan",
+            "photograph": "https://i.ibb.co/TYWwLH7/front-view-burger-stand.png"
+      },
+      {
+            "id": 2,
+            "name": "Roberta's Pizza",
+            "neighborhood": "Brooklyn",
+            "photograph": "https://i.ibb.co/fQnnhDh/pizza-pizza-filled-with-tomatoes-salami-olives.png"
+      },
+      {
+            "id": 3,
+            "name": "Chocolate Donuts",
+            "neighborhood": "Manhattan",
+            "photograph": "https://i.ibb.co/9Vf0jYV/fresh-tasty-donuts-with-chocolate-glaze.png"
+      },
+      {
+            "id": 4,
+            "name": "Katz's Delicatessen",
+            "neighborhood": "Manhattan",
+            "photograph": "https://i.ibb.co/8cFwvSX/close-dinner-fresh-closeup-lunch.png"
+      },
+      {
+            "id": 5,
+            "name": "Shahi Kabab",
+            "neighborhood": "Brooklyn",
+            "photograph": "https://i.ibb.co/tHrG9rV/barbecue-beef-kebabs-with-green-pepper.png"
+      },
+      {
+            "id": 6,
+            "name": "Hometown BBQ",
+            "neighborhood": "Brooklyn",
+            "photograph": "https://i.ibb.co/L139ksQ/fried-appetizing-tasty-chicken-breast-served-skillet-with-asparagus-dark-background.png"
+      }
+]
