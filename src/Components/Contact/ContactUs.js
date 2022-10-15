@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactUs = () => {
       return (
-            <div style={{ height: '400px', backgroundColor: 'PowderBlue' }} className="container margin rounded-3 d-flex justify-content-center align-items-center"
+            <div style={{ height: '400px', backgroundColor: 'PowderBlue' }} className="container margin rounded-3 d-flex justify-content-center align-items-center mt-5"
                   id="subscribe">
 
                   <div>

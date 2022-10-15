@@ -48,7 +48,7 @@ const Services = () => {
             }
       ]
       return (
-            <div className='grid'>
+            <div className='grid '>
 
                   {
                         services.map(service => <Service
