@@ -22,13 +22,13 @@ const Dashboard = () => {
                               users.map(user => (
                                     <ListGroupItem className='d-flex'>
                                           <p className='me-5'>{user.name}</p>
-                                          <p className='me-5'>{user.address}</p>
+                                          {/* <p className='me-5'>{user.address}</p>
                                           <p className='me-5'>{user.phone}</p>
                                           <p className='me-5'>{user.gender}</p>
                                           <p className='me-5'>{user.dob}</p>
-                                          <p className='me-5'>uuuu</p>
+                                          <p className='me-5'>uuuu</p> */}
                                           <div className='ms-5'>
-                                                <Button variant="secondary"><Link to="/ViewPatient" className='link'>View Patient</Link></Button>
+                                                <Button variant="secondary"><Link to={`/ViewPatient/${user.id}`} className='link'>View Patient</Link></Button>
                                           </div>
                                     </ListGroupItem>
                               ))}
