@@ -1,33 +1,39 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
+import { GlobalContext } from '../Context API/Context';
+import './ViewPatient.css'
 
 const ViewPatient = () => {
+
+      const { users, setUsers } = useContext(GlobalContext);
+
       const { id } = useParams();
-      const { name } = useParams();
-      const { address } = useParams();
-      const { dob } = useParams();
-      const { gender } = useParams();
-      const { phone } = useParams();
+
+      const user = users.filter(user => user.id == id);
+
       return (
-            <div>
-
-                  <div className="d-flex justify-content-center align-items-center" style={{ height: '80vh' }}>
 
 
 
-                        <div className='rounded fs-6' style={{ padding: "50px", background: "#B0C4DE" }}>
-                              <h1>Patient Information</h1>
-                              <br />
-                              <p>UserID: {id}</p>
-                              <p>Name: {name}</p>
-                              <p>Address: {address}</p>
-                              <p>Gender: {gender}</p>
-                              <p>Date of Birth: {dob}</p>
-                              <p>Phone: {phone}</p>
+            <div className="d-flex justify-content-center align-items-center patient-Data_View_box" style={{ height: '83vh' }}>
+
+                  <h1 className='me-4'>Patient<br></br><span className='patient-info-text'> Information</span> </h1>
+                  <div className='rounded fs-6 patient-info-text' >
+
+                        <br />
+                        <div className="d-flex justify-content-center align-items-center">
+                              <div>
+                                    <p>UserID: {id}</p>
+                                    <p>Name: {user[0].name}</p>
+                                    <p>Address: {user[0].address}</p>
+                                    <p>Gender: {user[0].gender}</p>
+                                    <p>Date of Birth: {user[0].dob}</p>
+                                    <p>Phone: {user[0].phone}</p>
+                              </div>
                         </div>
-
-
                   </div>
+
+
             </div>
       );
 };

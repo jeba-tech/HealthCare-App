@@ -1,13 +1,9 @@
-.add-ride-back {
-      background-color: #dee2e6;
-}
-
-.Add_Ridertext {
+.Add_text {
       color: mediumpurple;
 }
 
 
-.Rider_btn_form-submit {
+.Patient_btn_form-submit {
       width: 200px;
       height: 55px;
       background-color: rgba(140, 53, 255, 0.3);
@@ -17,11 +13,11 @@
       cursor: pointer;
 }
 
-.Rider_btn_form-submit:hover {
+.Patient_btn_form-submit:hover {
       background-color: rgba(27, 109, 117, 0.5);
 }
 
-.rider_addtext-center {
+.patient_addtext-center {
       color: #fff;
       text-transform: uppercase;
       font-size: 23px;
@@ -30,7 +26,7 @@
       text-align: center;
 }
 
-.rider_addtbox {
+.patient_addtbox {
       position: absolute;
       left: 50%;
       top: 50%;
@@ -41,12 +37,12 @@
       box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.rider_addinput-container {
+.patient_addinput-container {
       position: relative;
       margin-bottom: 25px;
 }
 
-.rider_addinput-container label {
+.patient_addinput-container label {
       position: absolute;
       top: 0px;
       left: 0px;
@@ -56,7 +52,7 @@
       transition: all 0.5s ease-in-out;
 }
 
-.rider_addinput-container input {
+.patient_addinput-container input {
       border: 0;
       border-bottom: 1px solid #555;
       background: transparent;
@@ -66,14 +62,14 @@
       color: rgb(83, 7, 7);
 }
 
-.rider_addinput-container input:focus {
+.patient_addinput-container input:focus {
       border: none;
       outline: none;
       border-bottom: 1px solid #e74c3c;
 }
 
-.rider_addinput-container input:focus~label,
-.rider_addinput-container input:valid~label {
+.patient_addinput-container input:focus~label,
+.patient_addinput-container input:valid~label {
       top: -12px;
       font-size: 12px;
 
