@@ -6,6 +6,7 @@
       display: flex;
       padding: 10px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top: 150px;
 }
 
 .home-nav img {
@@ -26,10 +27,18 @@
 .home-btn {
       color: rgb(255, 255, 255);
       background-color: rgb(77, 104, 109);
-      padding: 10px 20px;
+      padding: 10px 30px;
       border: none;
       cursor: pointer;
       font-size: 19px;
       font-weight: 500;
-      border-radius: 5px;
+      border-radius: 23px;
+}
+
+.home-btn:hover {
+      background-color: rgb(176, 173, 210);
+      color: black;
+
+      cursor: pointer;
+
 }

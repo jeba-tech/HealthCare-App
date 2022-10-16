@@ -6,15 +6,38 @@
 }
 
 .responsive {
-      margin-left: 75px;
+      margin-left: 65px;
       background-color: rgb(188, 205, 199);
       height: 600px;
+      width: 350px;
       border-radius: 10px;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      margin-bottom: 60px;
+      margin-right: 45px;
+
+      transition: width 0.75s;
+
+}
+
+.responsive:hover {
+
+      background-color: rgb(202, 209, 216);
+      cursor: pointer;
+      width: 370px;
+
+
+}
+
+.responsive a:hover {
+
+      background-color: rgb(183, 195, 234);
+      color: black;
+      cursor: pointer;
+
 
 
 }
 
 .service-title {
-      margin-left: 740px;
+      margin-left: 730px;
 }

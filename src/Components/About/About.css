@@ -48,7 +48,15 @@
       cursor: pointer;
       font-size: 18px;
       font-weight: 600;
-      border-radius: 10px;
+      border-radius: 23px;
       margin-left: 50px;
+
+}
+
+.about-btn:hover {
+      background-color: rgb(176, 173, 210);
+      color: black;
+
+      cursor: pointer;
 
 }

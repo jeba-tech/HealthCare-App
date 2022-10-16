@@ -10,12 +10,12 @@ const Dashboard = () => {
       return (
             <div >
                   <div >
-                        <Navbar className='w-50 display mt-5' >
+                        <Navbar className='w-50 display create-display' >
                               <Container>
                                     <NavbarBrand href="/">Patient List</NavbarBrand>
                                     <Nav>
                                           <NavItem>
-                                                <Button variant="secondary"><Link to="/CreatePatient" className='link'>Create Patient</Link></Button>
+                                                <Link to="/CreatePatient" className='link CreatePatient-btn'>Create Patient</Link>
                                           </NavItem>
                                     </Nav>
                               </Container>
@@ -32,7 +32,7 @@ const Dashboard = () => {
                                                 <p className='me-5'>{user.gender}</p>
                                                 <p className='me-5'>{user.dob}</p>
                                                 <div className='ms-5'>
-                                                      <Button variant="secondary"><Link to={`/ViewPatient/${user.id}`} className='link'>View Patient</Link></Button>
+                                                      <Button variant="secondary" className='CreatePatient-btn'><Link to={`/ViewPatient/${user.id}`} className='link'>View Patient</Link></Button>
                                                 </div>
                                           </ListGroupItem>
                                     ))}

@@ -7,14 +7,14 @@ const Header = () => {
             <div>
                   <div className='nav fixed-top'>
                         <div className='web-name'>
-                              <p>Health Care</p>
+                              <h2>Health<span class="head-title">Care</span></h2>
                         </div>
 
-                        <Link to="/" className='link'>Home</Link>
-                        <Link to="/Services" className='link'>Services</Link>
-                        <Link to="/About" className='link'>About Us</Link>
-                        <Link to="/Dashboard" className='link'>Dashboard</Link>
-                        <Link to="/Contact" className='link'>Contact Us</Link>
+                        <Link to="/" className='link-nav'>Home</Link>
+                        <Link to="/Services" className='link-nav'>Services</Link>
+                        <Link to="/About" className='link-nav'>About Us</Link>
+                        <Link to="/Dashboard" className='link-nav'>Dashboard</Link>
+                        <Link to="/Contact" className='link-nav'>Contact Us</Link>
 
 
 

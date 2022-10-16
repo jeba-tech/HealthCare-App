@@ -3,3 +3,21 @@
       margin-left: 400px;
       box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
+.create-display {
+      margin-top: 200px;
+}
+
+.CreatePatient-btn {
+      background-color: rgb(193, 231, 218);
+      padding: 10px 20px;
+      border: solid rgb(122, 113, 113) 1px;
+      border-radius: 7px;
+
+}
+
+.CreatePatient-btn:hover {
+      background-color: rgb(153, 173, 166);
+      color: black;
+
+}

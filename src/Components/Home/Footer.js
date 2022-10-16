@@ -35,9 +35,13 @@ const Footer = () => {
                                                       <li><a href="#">Benefits</a></li>
                                                 </ul>
                                           </div>
-                                          <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                                                <p class="copyright">All Rights Reserved © 2022</p>
+
+                                          <div class="col-lg-3 item social">
+                                                <a href=""><i class="fab fa-instagram"></i><i class="fab fa-dribbble"></i><i
+                                                      class="fab fa-twitter"></i><i class="fab fa-youtube"></i></a>
+
                                           </div>
+                                          <p class="copyright">All Rights Reserved © 2022</p>
                                     </div>
                               </div>
                         </footer>

@@ -10,6 +10,8 @@ import ContactUs from './Components/Contact/ContactUs';
 import CreatePatient from './Components/Dashboard/CreatePatient/CreatePatient';
 import ViewPatient from './Components/Dashboard/View Patient/ViewPatient';
 import { GlobalProvider } from './Components/Dashboard/Context API/Context';
+
+
 function App() {
   return (
     <div >

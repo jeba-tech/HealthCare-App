@@ -4,7 +4,7 @@ const Service = ({ service }) => {
       return (
             <div>
 
-                  <div className="card responsive" style={{ width: 388 }} >
+                  <div className="card responsive" >
                         <img src={service.photograph} className="card-img-top" alt="..." />
                         <div className="card-body">
                               <h5 className="card-title">{service.name}</h5>

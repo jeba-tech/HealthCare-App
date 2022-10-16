@@ -1,13 +1,5 @@
-/* .footer-style {
-      margin-top: 40px;
-      text-align: center;
-      background-color: black;
-      color: aliceblue;
-      padding: 20px;
-} */
-
 .footer-clean {
-      padding: 50px 0;
+      padding: 70px 0;
       background-color: rgb(81, 88, 88);
       color: #ffffff;
       margin-top: 50px;
@@ -17,7 +9,7 @@
       margin-top: 0;
       margin-bottom: 12px;
       font-weight: bold;
-      font-size: 16px;
+      font-size: 19px;
 }
 
 .footer-clean ul {
