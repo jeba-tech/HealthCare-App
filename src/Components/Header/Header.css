@@ -1,7 +1,6 @@
 .nav {
 
-      background-color: rgb(41, 139, 156);
-      padding: 8px;
+      background-color: rgb(162, 169, 183);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -10,17 +9,19 @@
 }
 
 .web-name {
-      color: white;
+      color: rgb(44, 53, 54);
       font-size: 30px;
       margin-right: 600px;
+      font-weight: 700;
 
 }
 
 .link {
-      color: aquamarine;
+      color: rgb(50, 53, 69);
       text-decoration: none;
       font-size: 20px;
       margin-right: 20px;
+      font-weight: 600;
 
 
 }

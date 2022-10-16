@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
       return (
             <div>
-                  <div className='nav'>
+                  <div className='nav fixed-top'>
                         <div className='web-name'>
                               <p>Health Care</p>
                         </div>

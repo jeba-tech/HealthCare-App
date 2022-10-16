@@ -48,14 +48,17 @@ const Services = () => {
             }
       ]
       return (
-            <div className='grid '>
+            <div >
+                  <h2 className='mb-5 service-title'><b>Services</b> </h2>
+                  <div className='grid'>
+                        {
+                              services.map(service => <Service
+                                    key={service._id}
+                                    service={service}
+                              ></Service>)
+                        }
+                  </div>
 
-                  {
-                        services.map(service => <Service
-                              key={service._id}
-                              service={service}
-                        ></Service>)
-                  }
 
             </div >
       );

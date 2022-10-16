@@ -9,7 +9,7 @@ const Banner = () => {
                         <div>
 
                               <p><span>Time and health </span>are two precious assets</p>
-                              <p className='pera-text'>Digital problem solving involves the use of the skills, strategies, and approaches (including mindsets) needed to navigate online in everyday. Here ,you can buy different types of calculator</p>
+                              <p className='pera-text'>Efforts made to maintain or restore physical, mental, or emotional well-being especially by trained and licensed professionals usually hyphenated when used attributively health-care providers.</p>
                               <button className='home-btn'>See More </button>
                         </div>
                         <div>
