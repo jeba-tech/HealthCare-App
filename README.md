@@ -6,7 +6,7 @@ https://healthcare-webapp.netlify.app/
 step-1: git clone https://github.com/jeba-tech/HealthCare-App.git \
 step-2: cd project_folder \
 step-3: npm install \
-step-4: npm start \
+step-4: npm start 
 
 
 
